@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	font-family: 'Source Code Pro', monospace;
+}
+/* -------------------------- */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+  }
+  .clearfix:after {
+    clear: both;
+  }
+.section1 {
+	background-color: #5385C1;
+	
+} 
+.logo {
+	font-size: 25px;
+	color: white;
+}
+.wrapper {
+	
+	margin: 20px 60px;
+}
+.left {
+	float: left;
+}
+.sec1 {
+	width: 25%;
+	padding-top: 60px;
+	vertical-align: middle;
+	
+}
+.sec2 {
+	width: 50%;
+	padding-top: 150px;
+	color: white;
+	text-align: center;
+	line-height: 1.5;
+	padding-bottom: 100px;
+
+}
+.sec3 {
+	width: 25%;
+	padding-top: 60px;
+}
+.sec3 a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	padding-left: 10px; 
+	vertical-align: middle;
+
+}
+h1 {
+	font-size: 38px;
+}
+.section2 {
+	background-color: white;
+	padding: 40px 0;
+}
+.sec4 {
+	width: 33%;
+}
+.sec5 {
+	width: 33%;
+}
+.sec6 {
+	width: 33%;
+}
+h2 {
+	color: #5385C1;
+	font-size: 25px;
+	padding-bottom: 25px;
+}
+.magna {
+	width: 350px;
+	padding-bottom: 10px;
+}
+
+.navmore {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	background-color: #5385C1;
+}
+.section3 {
+	background-color: #5385C1;
+	color: white;
+	padding-bottom: 40px;
+	
+}
+h3 {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 33px;
+	text-align: center;
+	color: #5385C1;
+}
+.semper {
+	text-align: center;
+	padding-bottom: 30px;
+
+}
+ .box img {
+	border-radius: 50%;
+	
+	padding: 30px 20px;
+}
+
+.box {
+	/* display: inline-block; */
+	padding-bottom: 20px;
+	
+	border: 1px solid white;
+	width: 20%;
+	margin: 0 2.5%;
+	text-align: center;
+
+}
+.box p, h6 {
+	text-align: center;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+* {
+	box-sizing: border-box;
+}
+.section4 {
+	background-color: white;
+}
+.aliuqman {
+	color: gray;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.last {
+	width: 50%;
+}
+.section4 p {
+	width: 500px;
+}
+
+.something p {
+	margin-left: 500px;
+	margin-bottom: 60px;
+
+}
+.lorem {
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+
+
+

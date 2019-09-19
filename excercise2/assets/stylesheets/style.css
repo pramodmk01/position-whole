@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------------------------- */
+/* general */
+body {
+    font-family: 'Chilanka', cursive;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #29658A;
+    font-size: 38px;
+    padding: 20px 0;
+    word-spacing: 4px;
+}   
+.link {
+    padding: 20px 0;
+    font-size: 28px;
+  
+} 
+.link a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+
+}
+.backgroundheader {
+    background: #25274D;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: block;
+
+}
+.lakeheader {
+    width: 50%;
+}
+.clearfix::after{
+    clear: both;
+}
+h2 {
+    font-size: 28px;
+    padding: 20px 0;
+    color: #25274D;
+}
+p {
+    /* text-align: initial; */
+    word-spacing: 3px;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+.backgroundsection {
+    background-color:  #29658A;
+    padding: 30px 0;
+}
+.footer {
+    background: #25274D;
+    padding: 20px;
+    color: #ffffff;
+  }
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 24px;
+  }
+  .gap {
+      padding-top: 40px;
+      
+  }
+*{
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.settingspace {
+    padding-left: 10px;
+}
+.backgroundsection2 {
+    background-color: rgb(7, 42, 65);
+    padding: 30px;
+}
